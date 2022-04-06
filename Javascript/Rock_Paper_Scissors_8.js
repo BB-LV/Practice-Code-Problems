@@ -12,7 +12,7 @@ rps('paper','paper') // Draw!
 
 // 2 Approaches
 
-/*  Second Approach is to shorten the function with a set of 'rules' as an object. This approach
+/*  Second Approach - is to shorten the function with a set of 'rules' as an object. This approach
       would scale much more efficiently than my first solution and would come closer to adhearing 
       to Object Oriented Programming principles. Specifically Encapsulation of the rule-set and
       using a function to Abstract that rule-set.
@@ -45,7 +45,7 @@ const rps = (p1, p2) => {
         }
       };
 
-      -Above can be Shortened using Ternary Operators-
+      *Above can be Shortened using Ternary Operators*
 
     const rps = (p1, p2) => {
         return p1 === p2 ? "Draw!"
