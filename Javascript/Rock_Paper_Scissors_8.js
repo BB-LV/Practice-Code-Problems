@@ -26,10 +26,10 @@ const rps = (p1, p2) => {
     return rules[p1] === p2 ? 'Player 1 won!' : p1 === p2 ? 'Draw!' : 'Player 2 won!';
   };
 
+
+
 /* First Approach - Simple if/else if/else statement for the possible outcomes. Solves the problem but 
-      is a 'brute force' approach that is harder to scale than other approaches. */
-    
-      /*
+      is a 'brute force' approach that is harder to scale than other approaches. 
 
       const rps = (p1, p2) => {
         if(p1 === p2){
@@ -55,4 +55,4 @@ const rps = (p1, p2) => {
         : "Player 2 won!"
     };
 
-      */
+*/
