@@ -34,7 +34,7 @@ potatoesshould return the final weight coming out of the oven w1 truncated as an
                     potatoes(93, 129, 91) // 100);
                     potatoes(99, 100, 98) // 50;
 
-    Pseudo-Code = Description
+    Pseudo-Code = This problem can be solved by multiplying the starting weight by the initial water content and than dividing that by the ending water content
 */
 
 /* First Attempt
@@ -46,3 +46,7 @@ attempt
 // How to Clean Up
 
 // Final Answer
+
+function potatoes(p0, w0, p1) {
+    return Math.floor(w0 * (100 - p0) / (100 - p1))
+    }
